@@ -61,15 +61,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bioinformatics-ua/workflow-management.git"
+    "url": "https://github.com/bioinformatics-ua/taska.git"
   },
   "keywords": [
     "workflow",
     "collaboration"
   ],
-  "author": "Ricardo Ribeiro <ribeiro.r@ua.pt>",
+  "author": "João Rafael ALmeida <joao.rafael.almeida@ua.pt>",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/bioinformatics-ua/workflow-management/issues"
+    "url": "https://github.com/bioinformatics-ua/taska/issues"
   }
 }
