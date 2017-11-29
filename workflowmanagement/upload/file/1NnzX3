@@ -1,0 +1,4 @@
+atlas prod: 	ssh -p 40260 sysadmin@193.136.175.33
+atlas testes: 	ssh -p 14702 sysadmin@193.136.175.33
+taska prod:		ssh -p 7222 dockeruser@193.136.175.33
+taska testes:	ssh -p 7222 dockeruser@193.136.175.33 CHANGE THIS MACHINE

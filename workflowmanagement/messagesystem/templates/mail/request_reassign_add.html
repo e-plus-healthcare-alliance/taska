@@ -1,0 +1,21 @@
+{% extends "mail/common.html" %}
+
+{% block header %}
+You have a reassignement request for {{ task }} (FEEDBACK REQUIRED!)
+{% endblock %}
+
+{% block body %}
+
+Dear {{ leaderName }},<br /> <br />
+
+
+{{ user }} requested the reassignment of the task {{ task }}.
+
+<br /><br />
+Please use this <a href="{{link_delegate}}">link</a> to check and answer the request.
+
+<br /><br />
+Best Regards,<br />
+Taska (on behalf of {{ user }})
+
+{% endblock %}

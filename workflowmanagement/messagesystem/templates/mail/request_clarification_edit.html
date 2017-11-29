@@ -1,0 +1,18 @@
+{% extends "mail/common.html" %}
+
+{% block header %}
+Your clarification request about {{ task }} was answered
+{% endblock %}
+
+{% block body %}
+
+Dear {{ user }},<br /> <br />
+
+
+{{ leaderName }} answered to your clarification request about the task {{ task }}.
+
+<br /><br />
+Best Regards,<br />
+Taska (on behalf of {{ leaderName }})
+
+{% endblock %}

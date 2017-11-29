@@ -1,0 +1,22 @@
+Bom dia,
+
+Fizemos um deploy online para testes da nova interface, que pode ser útil na discussão de determinados ecrãs que devem ser melhorados.
+
+O deploy está disponível em http://bioinformatics.ua.pt/catalogue-demo/
+
+Alguns dos fluxos que gostariamos de melhorar são:
+
+Escolher comunidade -> no menu esquerdo -> Data table
+
+Nesta página atualmente não há grande aproveitamento do espaço, é suposto termos uma página que funciona mais ao menos como uma folha de excel mas apenas de leitura, mas o espaço acaba por ficar mal aproveitado.
+
+Escolher comunidade -> na lista de databases -> Escolher base de dados
+
+Nesta página temos um grande problema que é o abuso excessivo da barra de ferramentas, onde ficamos com um ecrã enorme e que escala mal em ecrãs mais pequenos. Uma alternativa a esta barra de ferramentas era boa ideia. O menu lateral avançou bastante neste sentido, mas ainda temos muitas opções contextuais que não cabem no mesmo.
+
+Uma coisa que reparamos é que o texto e os botões (btn-default do bootstrap) ficaram com uma cor bastante próxima da cor do fundo, dava para tornar a diferença mais contrastada ?
+
+Adicionalmente, gostavamos de saber o estado do ecrã da listagem de base de dados que tinha ficado para melhorar e se sempre dá para fixar o menu do topo como eu tinha pedido.
+
+Com os melhores cumprimentos,
+Ricardo Ribeiro

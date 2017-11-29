@@ -1,0 +1,7 @@
+#from lxml import html
+import requests
+
+while True:
+	page = requests.get('http://oavomanel-apoio-domiciliario.pt/')
+#tree = html.fromstring(page.content)
+#print tree

@@ -1,0 +1,33 @@
+netbeans; 
+New project;
+Java Web;
+New web service from WSDL;
+E:\XDS\mine\Resources\ITI\wsdl\<file>.wsdl;
+
+dá erro no deploy do net beans porque o wsdlLocation do netbeans não esá consistente com a localização do wsdl..
+
+criar na pasta WEB-INF do projecto netbeans ex: C:\Users\Administrator\Documents\NetBeansProjects\Registry\web\WEB-INF\wsdl\DocumentRegistry\wsdl\<file>.wsdl
+
+E os SCHEMAS necessários <-----------------------------
+
+no java web service wsdlLocation = "WEB-INF/wsdl/DocumentRegistry/wsdl/XDSb_DocumentRegistry.wsdl"
+
+//---------------------------------
+DocumentRepository: server that uses the DocumentRegistry Stub
+
+Netbeans has several problems while generating the two codes (server and client side)
+
+1st Do NOT give the generated code any package name!! Specially while generating the stub (netbeans forces it but interacting with the GUI it disapears)
+
+2nd Repository (ProvideAndRegisterDocumentSet) needs log4j the error does not pops out. The solution is to import the library
+
+For typesafeenummaxmembers edit the schema with globalbindings... edit on HL7v3/../coreschemas/voc.xsd (of registry) like this:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.0">    	      
+    <xs:annotation>
+        <xs:appinfo>
+            <jaxb:globalBindings typesafeEnumMaxMembers="1024" />
+        </xs:appinfo>
+    </xs:annotation>
+</xs:schema>

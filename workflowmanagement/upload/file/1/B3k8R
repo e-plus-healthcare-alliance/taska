@@ -1,0 +1,143 @@
+2014-09-29 20:48:33 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2014-09-29 20:48:52 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2014-09-29 20:50:54 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "ribeiro"
+FATAL:  password authentication failed for user "ribeiro"
+
+2014-09-29 20:51:08 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+
+2014-10-07 02:34:20 ERROR  : ERROR:  column "c095e75511b6c6f2fa1f5378e511ec36" does not exist
+2014-10-07 02:34:40 ERROR  : ERROR:  column "fingerprint_id_id" does not exist
+2014-10-07 02:35:08 ERROR  : ERROR:  column "c095e75511b6c6f2fa1f5378e511ec36" does not exist
+2014-10-17 13:54:36 ERROR  : ERROR:  database "emif_dev" is being accessed by other users
+DETAIL:  There are 2 other sessions using the database.
+2014-10-17 13:54:55 ERROR  : ERROR:  database "emif_dev" is being accessed by other users
+DETAIL:  There are 2 other sessions using the database.
+2014-11-10 13:30:21 ERROR  : ERROR:  database "emif_prod" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2014-11-10 13:30:35 ERROR  : ERROR:  database "emif_prod" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2014-11-10 13:30:53 ERROR  : ERROR:  database "emif_prod" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2014-11-11 15:17:32 ERROR  : ERROR:  cannot truncate a table referenced in a foreign key constraint
+DETAIL:  Table "newsletter_newsletter" references "newsletter_emailtemplate".
+HINT:  Truncate table "newsletter_newsletter" at the same time, or use TRUNCATE ... CASCADE.
+2014-11-11 15:17:39 ERROR  : ERROR:  cannot truncate a table referenced in a foreign key constraint
+DETAIL:  Table "newsletter_newsletter_site" references "newsletter_newsletter".
+HINT:  Truncate table "newsletter_newsletter_site" at the same time, or use TRUNCATE ... CASCADE.
+2014-11-11 15:17:49 ERROR  : ERROR:  cannot truncate a table referenced in a foreign key constraint
+DETAIL:  Table "newsletter_newsletter_site" references "newsletter_newsletter".
+HINT:  Truncate table "newsletter_newsletter_site" at the same time, or use TRUNCATE ... CASCADE.
+2014-11-11 15:17:54 ERROR  : ERROR:  cannot truncate a table referenced in a foreign key constraint
+DETAIL:  Table "newsletter_article" references "newsletter_message".
+HINT:  Truncate table "newsletter_article" at the same time, or use TRUNCATE ... CASCADE.
+2014-11-17 12:01:52 ERROR  : ERROR:  syntax error at or near "46"
+LINE 3800: 46  registered 47 BE Janssen Pharmaceutica -1 f
+           ^
+2014-11-17 13:41:12 ERROR  : ERROR:  role "bastiao" does not exist
+2014-12-18 15:38:35 ERROR  : ERROR:  database "emif_bastiao" already exists
+2014-12-22 15:03:22 ERROR  : ERROR:  null value in column "closed" violates not-null constraint
+DETAIL:  Failing row contains (2, 4, 1, <strong>Description: </strong>TEste de descricao
+<strong>Steps t..., 2014-12-22 14:58:03.227852+00, null, null).
+2014-12-22 15:03:27 ERROR  : ERROR:  null value in column "closed" violates not-null constraint
+DETAIL:  Failing row contains (2, 4, 1, <strong>Description: </strong>TEste de descricao
+<strong>Steps t..., 2014-12-22 14:58:03.227852+00, null, null).
+2014-12-22 15:03:30 ERROR  : ERROR:  null value in column "closed" violates not-null constraint
+DETAIL:  Failing row contains (2, 4, 1, <strong>Description: </strong>TEste de descricao
+<strong>Steps t..., 2014-12-22 14:58:03.227852+00, null, null).
+2014-12-22 15:03:41 ERROR  : ERROR:  null value in column "closed" violates not-null constraint
+DETAIL:  Failing row contains (2, 4, 1, <strong>Description: </strong>TEste de descricao
+<strong>Steps t..., 2014-12-22 14:58:03.227852+00, 2014-12-22 15:02:05.039758+00, null).
+2014-12-22 15:04:02 ERROR  : ERROR:  null value in column "closed" violates not-null constraint
+DETAIL:  Failing row contains (2, 4, 1, <strong>Description: </strong>TEste de descricao
+<strong>Steps t..., 2014-12-22 14:58:03.227852+00, 2014-12-22 15:02:05.039758+00, null).
+2015-03-10 15:49:57 ERROR  : ERROR:  update or delete on table "auth_user" violates foreign key constraint "user_id_refs_id_28174a7e22158ba5" on table "accounts_emifprofile"
+DETAIL:  Key (id)=(197) is still referenced from table "accounts_emifprofile".
+2015-05-22 01:46:46 ERROR  : ERROR:  database "workflow_dev" already exists
+2015-05-24 03:34:53 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+password retrieved from file "/home/ribeiro/.pgpass"
+
+2015-05-24 03:35:23 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+password retrieved from file "/home/ribeiro/.pgpass"
+
+2015-05-24 03:35:36 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+password retrieved from file "/home/ribeiro/.pgpass"
+
+2015-05-24 03:37:15 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "pguser"
+FATAL:  password authentication failed for user "pguser"
+
+2015-05-24 03:37:24 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+
+2015-05-24 03:38:53 ERROR  : SSL SYSCALL error: EOF detected
+2015-05-24 03:41:24 ERROR  : SSL SYSCALL error: EOF detected
+2015-05-24 04:36:20 ERROR  : SSL SYSCALL error: EOF detected
+2015-05-24 17:30:04 ERROR  : Error connecting to the server: FATAL:  role "pguser" does not exist
+
+2015-05-24 17:30:56 ERROR  : Error connecting to the server: FATAL:  role "emif_dev" does not exist
+
+2015-05-24 18:12:29 ERROR  : Error connecting to the server: FATAL:  role "emif_dev" does not exist
+
+2015-05-24 18:16:33 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-24 18:20:38 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-24 18:32:21 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-24 18:33:21 ERROR  : Error connecting to the server: FATAL:  role "emif_dev" does not exist
+
+2015-05-24 18:34:33 ERROR  : Error connecting to the server: FATAL:  role "emif_dev" does not exist
+
+2015-05-24 18:36:10 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "emif_dev"
+
+2015-05-24 18:39:07 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-24 18:39:11 ERROR  : Failed to re-establish the connection to the server postgres on postgres@localhost:5432
+2015-05-24 18:39:29 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "emif_dev"
+FATAL:  password authentication failed for user "emif_dev"
+
+2015-05-24 18:39:39 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2015-05-24 19:05:17 ERROR  : FATAL:  terminating connection due to administrator command
+SSL connection has been closed unexpectedly
+2015-05-25 22:47:22 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+password retrieved from file "/home/ribeiro/.pgpass"
+
+2015-05-25 22:47:24 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "emif_dev"
+FATAL:  password authentication failed for user "emif_dev"
+password retrieved from file "/home/ribeiro/.pgpass"
+
+2015-05-25 22:47:42 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "12345"
+FATAL:  password authentication failed for user "12345"
+
+2015-05-27 17:52:36 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+password retrieved from file "/home/ribeiro/.pgpass"
+
+2015-05-27 17:52:51 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+password retrieved from file "/home/ribeiro/.pgpass"
+
+2015-05-27 17:53:00 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+
+2015-05-27 17:53:38 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+password retrieved from file "/home/ribeiro/.pgpass"
+
+2015-05-27 17:54:26 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2015-05-27 17:56:17 ERROR  : ERROR:  database "workflow_dev" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2015-07-03 01:19:01 ERROR  : ERROR:  database "workflow_dev" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
